@@ -1,5 +1,67 @@
-body{
-    font-family: 'Roboto', sans-serif
+html{
+    height: 100%;
+    margin:0
+
 
 }
 
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    
+    
+
+}
+
+.header-and-links{
+    flex: 1;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 15px;
+
+
+}
+
+.title-and-photo{
+    flex:1
+}
+
+.header-ran-boxes{
+
+    flex:1
+}
+
+.quotes{
+    flex: 1;
+}
+
+.sign-up{
+    flex: 1;
+}
+
+.footer{
+    flex: 1;
+}
