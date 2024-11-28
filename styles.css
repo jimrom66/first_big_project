@@ -1,5 +1,5 @@
 html{
-    height: 100%;
+    /* height:100%; */
     margin:0;
     
 }
@@ -10,7 +10,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height:100%; */
     justify-content: center;
     margin: 0;
     
@@ -203,12 +203,98 @@ background-color: #3882f6;
 /* third containment end */
 .quotes{
     flex: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 200px 300px;
+    gap:30px;
+
 }
 
-.sign-up{
-    flex: 1;
+.quote{
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+
+
 }
 
+.last-quote{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+/* third container end */
+
+/* fourth container start */
+
+.sign-up-container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.sign-up-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 400px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 15px;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+
+}
+
+span{
+
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.second-signup{
+    padding: 12px 40px;
+    color: #F9FAF8;
+    border: 4px solid #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+
+.second-signup:hover{
+    background-color: #F9FAF8;
+    color: #3882f6;
+
+}
+/* fourth container end */
+
+/* footer start */
+
+.footer-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 80px;
+
+
+}
 .footer{
-    flex: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+
 }
